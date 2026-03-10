@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Form</title>
+</head>
+<body>
+
+<h2>Enter your name</h2>
+
+<input type="text" id="name" placeholder="Your name">
+<button onclick="showMessage()">Submit</button>
+
+<script>
+function showMessage() {
+  let name = document.getElementById("name").value;
+  alert(name + ", you are a fool.");
+}
+</script>
+
+</body>
+</html>
